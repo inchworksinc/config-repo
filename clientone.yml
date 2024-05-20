@@ -21,6 +21,10 @@ eureka:
 
 server:
   port: 8084
+  
+config:
+  test:
+    value: dev-config
 
 ---
 spring:
@@ -35,3 +39,7 @@ eureka:
 
 server:
   port: 8086
+  
+config:
+  test:
+    value: test-config
