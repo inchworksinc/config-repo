@@ -6,6 +6,4 @@ eureka:
 server:
   port: 8086
   
-config:
-  test:
-    value: bdev-config
+environment: bdev
