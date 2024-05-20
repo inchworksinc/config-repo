@@ -3,8 +3,6 @@ spring
     config:
       discovery:
         enabled: false
-        service-id: config-server
-
 config:
   test:
     value: default-config
