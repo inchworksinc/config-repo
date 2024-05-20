@@ -24,7 +24,7 @@ server:
   
 config:
   test:
-    value: dev-config
+    value: gdev-config
 
 ---
 spring:
@@ -42,4 +42,4 @@ server:
   
 config:
   test:
-    value: test-config
+    value: bdev-config
