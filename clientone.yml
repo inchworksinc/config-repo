@@ -12,7 +12,7 @@ config:
 spring:
   config:
     activate:
-      on-profile: dev
+      on-profile: gdev
    
 eureka:
   client:
@@ -30,7 +30,7 @@ config:
 spring:
   config:
     activate:
-      on-profile: test
+      on-profile: bdev
    
 eureka:
   client:
