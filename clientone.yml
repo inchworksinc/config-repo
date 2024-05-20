@@ -3,4 +3,5 @@ spring:
     config:
       discovery:
         enabled: false
-name: default-config
+name: Anjaneya
+environment: default
