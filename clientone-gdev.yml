@@ -6,6 +6,4 @@ eureka:
 server:
   port: 8084
   
-config:
-  test:
-    value: gdev-config
+environment: gdev
