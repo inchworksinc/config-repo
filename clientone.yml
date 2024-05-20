@@ -8,3 +8,30 @@ spring
 config:
   test:
     value: default-config
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+   
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: "http://localhost:8761/eureka"
+
+server:
+  port: 8084
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+   
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: "http://localhost:8763/eureka"
+
+server:
+  port: 8086
