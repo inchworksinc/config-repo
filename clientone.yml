@@ -3,6 +3,4 @@ spring:
     config:
       discovery:
         enabled: false
-config:
-  test:
-    value: default-config
+name: default-config
