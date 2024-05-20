@@ -8,38 +8,3 @@ spring
 config:
   test:
     value: default-config
----
-spring:
-  config:
-    activate:
-      on-profile: gdev
-   
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: "http://localhost:8761/eureka"
-
-server:
-  port: 8084
-  
-config:
-  test:
-    value: gdev-config
-
----
-spring:
-  config:
-    activate:
-      on-profile: bdev
-   
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: "http://localhost:8763/eureka"
-
-server:
-  port: 8086
-  
-config:
-  test:
-    value: bdev-config
