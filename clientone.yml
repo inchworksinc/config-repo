@@ -3,5 +3,17 @@ spring:
     config:
       discovery:
         enabled: false
+management:
+  endpoint:
+    health:
+      show-details: always
+    env:
+      show-values: always
+    configprops:
+      show-values: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 name: Anjaneya
 environment: default
